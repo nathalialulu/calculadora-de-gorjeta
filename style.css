@@ -136,13 +136,13 @@ main{
 
 .pessoas #erro-div{
     outline: 2px solid var(--danger);
-
 }
 
 .pessoas #erro {
    font-size: 0.75rem;
    color: var(--danger);
    font-weight: 700;
+   display: none;
 }
 
 .resultados {
