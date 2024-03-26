@@ -19,7 +19,8 @@ function receberQuantidadePessoas(evento) {
         paragrafoErro.style.display = "block"
         divErro.setAttribute("id", "erro-div")
    } else{
-      paragrafoErro.style.display = "none"
-      divErro.setAttribute("id", "")
+    paragrafoErro.style.display = "none"
+    divErro.setAttribute("id", "")
+    pessoas = Number(evento.target.value)
    }
 }
